@@ -21,17 +21,20 @@ reinforcement learning–based property optimization. This project enables train
 ## Training Models
 
 ```bash
-python -m molecule_generator.main train
-python -m molecule_generator.main sample
+python -m Molecule-Generation.main train
+python -m Molecule-Generation.main sample
 ```
+![Training]("outputs/training.png")
 
 Example output:
 ```
 Generated SMILES:
-CCN(CC)CC
-CCC(C)CO
-CCOC(=O)N
+CCN(CC)CC...
+CCC(C)CO...
+CCOC(=O)N...
 ```
+![Samples]("outputs/samples.png")
+
 ---
 
 ## Configuration
