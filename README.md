@@ -24,7 +24,7 @@ reinforcement learning–based property optimization. This project enables train
 python -m Molecule-Generation.main train
 python -m Molecule-Generation.main sample
 ```
-![Training](outputs/training.png)
+![Training](molecule_generator/outputs/training.png)
 
 Example output:
 ```
@@ -33,7 +33,7 @@ CCN(CC)CC...
 CCC(C)CO...
 CCOC(=O)N...
 ```
-![Samples](outputs/samples.png)
+![Samples](molecule_generator/outputs/samples.png)
 
 ---
 
