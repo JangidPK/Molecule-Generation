@@ -26,6 +26,11 @@ def preprocess():
         RAW_SMILES
     ).values.squeeze()
 
+    # just to reduce the dataset size for testing - remove this line for full dataset
+    # making it 1/4
+    data_set_size = len(smiles_data) // 4
+    smiles_data = smiles_data[:data_set_size]
+
     tokenizer = SmilesTokenizer()
 
     filtered = tokenizer.filter_smiles(smiles_data)
