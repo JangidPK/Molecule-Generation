@@ -27,6 +27,7 @@ training:
   learning_rate: 0.001
   epochs: 40
   train_size: 0.8
+  dataset_size: 'none'
 
 rl:
   steps : 200

@@ -43,6 +43,7 @@ class Trainer:
 
         dataset = SmilesDataset(sequences)
 
+        config["training"]["dataset_size"] = len(dataset)
         train_size = int(config["training"]["train_size"] * len(dataset))
         val_size = len(dataset) - train_size
 

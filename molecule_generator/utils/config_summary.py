@@ -53,6 +53,7 @@ def print_config_summary(config, tokenizer):
     print(f"Learning rate     : {config['training']['learning_rate']}")
     print(f"Epochs            : {config['training']['epochs']}")
     print(f"Train size        : {config['training']['train_size']}")
+    print(f"Dataset size      : {config['training']['dataset_size']}")
 
 
     print("\nSYSTEM CONFIGURATION")

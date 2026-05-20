@@ -1,12 +1,15 @@
 import torch
 import yaml
-from rdkit import Chem
+from rdkit import Chem, RDLogger
 from rdkit.Chem import Draw
 from molecule_generator.preprocessing.tokenizer import SmilesTokenizer
 from molecule_generator.models.lstm_model import LSTM
 from molecule_generator.models.transformer_model import Transformer
 from molecule_generator.utils.paths import ARTF_DIR
 from molecule_generator.utils.config_summary import print_config_summary
+
+RDLogger.DisableLog("rdApp.*")
+
 
 class Sampler:
 
