@@ -10,7 +10,7 @@ reinforcement learning–based property optimization. This project enables train
 - Tokenization pipeline
 - LSTM-based molecular generator
 - Transformer-based molecular generator
-- - Reinforcement Learning Optimization
+- Reinforcement Learning Optimization
 
 ## Extensions 
 - Autoencoder latent representation learning
@@ -21,8 +21,8 @@ reinforcement learning–based property optimization. This project enables train
 ## Training Models
 
 ```bash
-python -m Molecule-Generation.main train
-python -m Molecule-Generation.main sample
+python -m molecule_generator.main train
+python -m molecule_generator.main sample
 ```
 ![Training](molecule_generator/outputs/training.png)
 
